@@ -1,7 +1,7 @@
 %function [totalError,PosError,RotError] = closingEquation(A,B,C)
 %function [totalError] = closingEquation(A,B,C)
 
-function [totalError] = closingEquation(GUESSEDVALS) % for use in fminunc
+function [totalError] = closingEquation(GUESSEDVALS,theta1,theta2) % for use in fminunc
 
 GUESSEDVALS = num2cell(GUESSEDVALS);
 %[a0,b0,c0,d0,theta1,a1_1,b1_1,c1_1,d1_1, a1_2,b1_2,c1_2,d1_2,theta2,a2_1,b2_1,c2_1,d2_1, a2_2,b2_2,c2_2,d2_2] = GUESSEDVALS{:};
@@ -9,8 +9,6 @@ GUESSEDVALS = num2cell(GUESSEDVALS);
 
 % set const values for theta. These can be taken from the simulation, but
 % not given to closingEq() as variables, do to fminunc changing them
-global theta1 theta2; %  pass the values for the thetas via a global variable. so that fminunc does not change them
-%disp(['closingEq has thetas: ', num2str(theta1),', ' ,num2str(theta2)]);
 
 
 % this function returns the value of the closing equation for this Robot
