@@ -15,3 +15,13 @@ A full overview over the slibrary can be found [here]( https://triped-robot.gith
 A guide on how to install and use the library can be found [here](https://triped-robot.github.io/docs/matlab_getting_started/)
 
 
+## citing the library
+
+```
+@misc{triped_sim,
+ author = "Jan Baumgärtner and Max Goebels",
+ title = "Simulation of TriPed Robot using Matlab",
+ year = 2021,
+ url = "https://triped-robot.github.io/docs/matlab_about/"
+}
+```
