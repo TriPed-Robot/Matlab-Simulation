@@ -2,13 +2,13 @@
 
 ![parts hierachy](https://raw.githubusercontent.com/TriPed-Robot/TriPed-Robot.github.io/master/images/triped_walking.gif)
 
-This repository provides a simulink library for the [TriPed robot](https://triped-robot.github.io/docs/robot/).
- This library can be used to set up walking experiments with the robot or just simulate parts of of the assembly to validate kinematic and dynamic models.
+This repository provides a Simulink library for the [TriPed robot](https://triped-robot.github.io/docs/robot/).
+ This library can be used to set up walking experiments with the robot or just simulate parts of the assembly to validate kinematic and dynamic models.
 
 
 The library was developed by Max Goebels and Jan Baumgärtner as part of their respective bachelor and master theses.
 
-A full overview over the slibrary can be found [here]( https://triped-robot.github.io/docs/matlab_about/)
+A full overview over the library can be found [here]( https://triped-robot.github.io/docs/matlab_about/)
 
 
 ## Getting started 
