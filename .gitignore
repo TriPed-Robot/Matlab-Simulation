@@ -3,3 +3,5 @@ slprj/_sfprj/EMLReport/*
 slprj/*/*/*.mat
 slprj/*
 *.autosave
+*.mat
+*.csv
