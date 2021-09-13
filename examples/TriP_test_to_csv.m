@@ -10,6 +10,6 @@ csvwrite('endeffector_coordinates.csv',array)
 
 
 
-joint_val = load('endeffector_coordinates.mat');
+joint_val = load('joint_values.mat');
 array = joint_val.ans.Data(2:20,:);
 csvwrite('joint_values.csv',array)
